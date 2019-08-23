@@ -1,6 +1,5 @@
 {
   "packages": "packages/",
-  "packagesPrefix": "@ckeditor/ckeditor5-",
   "baseBranches": [ "master", "stable" ],
   "dependencies": {
     "@ckeditor/ckeditor5-adapter-ckfinder": "ckeditor/ckeditor5-adapter-ckfinder",
@@ -12,7 +11,6 @@
     "@ckeditor/ckeditor5-build-balloon": "ckeditor/ckeditor5-build-balloon",
     "@ckeditor/ckeditor5-build-balloon-block": "ckeditor/ckeditor5-build-balloon-block",
     "@ckeditor/ckeditor5-build-classic": "ckeditor/ckeditor5-build-classic",
-    "@ckeditor/ckeditor5-build-decoupled-document": "ckeditor/ckeditor5-build-decoupled-document",
     "@ckeditor/ckeditor5-build-inline": "ckeditor/ckeditor5-build-inline",
     "@ckeditor/ckeditor5-clipboard": "ckeditor/ckeditor5-clipboard",
     "@ckeditor/ckeditor5-cloud-services": "ckeditor/ckeditor5-cloud-services",
@@ -40,7 +38,6 @@
     "@ckeditor/ckeditor5-paste-from-office": "ckeditor/ckeditor5-paste-from-office",
     "@ckeditor/ckeditor5-remove-format": "ckeditor/ckeditor5-remove-format",
     "@ckeditor/ckeditor5-table": "ckeditor/ckeditor5-table",
-    "@ckeditor/ckeditor5-theme-lark": "ckeditor/ckeditor5-theme-lark",
     "@ckeditor/ckeditor5-typing": "ckeditor/ckeditor5-typing",
     "@ckeditor/ckeditor5-ui": "ckeditor/ckeditor5-ui",
     "@ckeditor/ckeditor5-undo": "ckeditor/ckeditor5-undo",
@@ -48,6 +45,12 @@
     "@ckeditor/ckeditor5-utils": "ckeditor/ckeditor5-utils",
     "@ckeditor/ckeditor5-widget": "ckeditor/ckeditor5-widget",
     "@ckeditor/ckeditor5-watchdog": "ckeditor/ckeditor5-watchdog",
-    "@ckeditor/ckeditor5-word-count": "ckeditor/ckeditor5-word-count"
+    "@ckeditor/ckeditor5-word-count": "ckeditor/ckeditor5-word-count",
+	"ckeditor5-build-decoupled-document": "git@github.com:concordnow/ckeditor5-build-decoupled-document.git",
+    "ckeditor5-fontsize-converter": "git@github.com:concordnow/ckeditor5-fontsize-converter.git",
+    "ckeditor5-import-file": "git@github.com:concordnow/ckeditor5-import-file.git",
+    "ckeditor5-tabulation-converter": "git@github.com:concordnow/ckeditor5-tabulation-converter.git",
+    "ckeditor5-theme-concord": "git@github.com:concordnow/ckeditor5-theme-concord.git",
+    "ckeditor5-testing": "git@github.com:concordnow/ckeditor5-testing.git"
   }
 }
