@@ -50,7 +50,7 @@
     "@ckeditor/ckeditor5-widget": "ckeditor/ckeditor5-widget",
     "@ckeditor/ckeditor5-watchdog": "ckeditor/ckeditor5-watchdog",
     "@ckeditor/ckeditor5-word-count": "ckeditor/ckeditor5-word-count",
-	"ckeditor5-build-decoupled-document": "git@github.com:concordnow/ckeditor5-build-decoupled-document.git",
+    "ckeditor5-build-decoupled-document": "git@github.com:concordnow/ckeditor5-build-decoupled-document.git",
     "ckeditor5-fontsize-converter": "git@github.com:concordnow/ckeditor5-fontsize-converter.git",
     "ckeditor5-import-file": "git@github.com:concordnow/ckeditor5-import-file.git",
     "ckeditor5-tabulation-converter": "git@github.com:concordnow/ckeditor5-tabulation-converter.git",
