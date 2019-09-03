@@ -815,13 +815,13 @@
     "@ckeditor/ckeditor5-utils" "^14.0.0"
     lodash-es "^4.17.10"
 
-"@ckeditor/ckeditor5-dev-docs@^11.0.5":
-  version "11.0.7"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-dev-docs/-/ckeditor5-dev-docs-11.0.7.tgz#8c02e618b7a7c46548035d4b787b17545d7a97ec"
-  integrity sha512-gNo019baC2MPJuCqKWdHlu10QB67ZQVgXbxi0UOgkXQ8tzPCu9ZSKqbOzfL2w4XGE9ioTs8lfpo0PEB3Z7Fc7Q==
+"@ckeditor/ckeditor5-dev-docs@^11.0.8":
+  version "11.0.8"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-dev-docs/-/ckeditor5-dev-docs-11.0.8.tgz#1b47fdb05bbb11fa8a7de4161805cf6f42a76f40"
+  integrity sha512-EhdlljrTvUlxi+/JlCf5qwfXCW11CzypAdHgbyMXqTlYv9MyfD7xH5lMy8YG98VkJGtiGfJSFvP1I+644Fr88w==
   dependencies:
     "@ckeditor/ckeditor5-dev-utils" "^12.0.5"
-    "@ckeditor/jsdoc-plugins" "^3.0.5"
+    "@ckeditor/jsdoc-plugins" "^3.0.6"
     jsdoc "3.4.3"
     map-stream "^0.0.7"
     tmp "^0.0.33"
@@ -1316,10 +1316,10 @@
     "@ckeditor/ckeditor5-ui" "^14.0.0"
     lodash-es "^4.17.10"
 
-"@ckeditor/jsdoc-plugins@^3.0.1", "@ckeditor/jsdoc-plugins@^3.0.5":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@ckeditor/jsdoc-plugins/-/jsdoc-plugins-3.0.5.tgz#7a3d06b3e6482b743ce6559069bb76d7e2872244"
-  integrity sha512-i/cFbnKR7fpAmvs7eIsPybJx7PFq7H4uOgHvGGhBrkQX7kBuvRNbcwyAx7nfjSuEqIXhldJvaPUmdIVVT/XDWA==
+"@ckeditor/jsdoc-plugins@^3.0.1", "@ckeditor/jsdoc-plugins@^3.0.6":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@ckeditor/jsdoc-plugins/-/jsdoc-plugins-3.0.6.tgz#f227ed5470cc9d7023a79870a4d34874dbd4c050"
+  integrity sha512-q+JgTMjr76griEd4lhsUkiYtMe4DQWrxhPXXhVYLLtD23Ah+3XPbXCqpaVQHI6brZp6fK31rAOE6cyfXiCI4rQ==
   dependencies:
     fs-extra "^8.1.0"
     lodash "^4.17.15"
