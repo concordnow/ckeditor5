@@ -51,6 +51,7 @@
     "ckeditor5-import-file": "git@github.com:concordnow/ckeditor5-import-file.git",
     "ckeditor5-tabulation-converter": "git@github.com:concordnow/ckeditor5-tabulation-converter.git",
     "ckeditor5-theme-concord": "git@github.com:concordnow/ckeditor5-theme-concord.git",
+    "ckeditor5-textindent": "git@github.com:concordnow/ckeditor5-textindent.git",
     "ckeditor5-testing": "git@github.com:concordnow/ckeditor5-testing.git"
   }
 }
