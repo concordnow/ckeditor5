@@ -11013,10 +11013,10 @@ ultron@~1.1.0:
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
   integrity sha512-UIEXBNeYmKptWH6z8ZnqTeS8fV74zG0/eRU9VGkpzz+LIJNs8W/zM/L+7ctCkRrgbNnnR0xxw4bKOr0cW0N0Og==
 
-umberto@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/umberto/-/umberto-1.1.1.tgz#28ea014eafd9817913abab70e078c86d68f805d0"
-  integrity sha512-On0HZoBV1Qj4EpITgDGCxUZsPOAwZrVzVG2zpj+YUMFpRIyq5q3QBSZpIn5r+iW8dNSaLRxaacpyjzaH4Cejww==
+umberto@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/umberto/-/umberto-1.1.2.tgz#e225beb433ef480b0019148b613937d0ef2817a3"
+  integrity sha512-3i/JebnoyIOYxDMgicyH2AbWczvuTzRUofv0wz7vYnafP++LX0MRPxxRhpnDuHzzy9d9YizzP//bLGeL0AB6mQ==
   dependencies:
     "@babel/core" "^7.1.2"
     "@babel/polyfill" "^7.0.0"
