@@ -58,6 +58,6 @@
     "ckeditor5-textindent": "git@github.com:concordnow/ckeditor5-textindent.git",
     "ckeditor5-lineheight": "git@github.com:concordnow/ckeditor5-lineheight.git",
     "ckeditor5-table-render": "git@github.com:concordnow/ckeditor5-table-render.git",
-    "ckeditor5-testing": "git@github.com:concordnow/ckeditor5-testing.git"
+    "ckeditor5-testing": "git@github.com:concordnow/ckeditor5-testing.git#track-changes"
   }
 }
