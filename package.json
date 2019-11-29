@@ -85,7 +85,7 @@
     "@wiris/mathtype-ckeditor5": "^7.17.1",
     "babel-standalone": "^6.26.0",
     "css-loader": "^1.0.0",
-    "eslint": "^5.5.0",
+    "eslint": "^6.7.1",
     "eslint-config-ckeditor5": "^2.0.0",
     "file-loader": "^4.1.0",
     "glob": "^7.1.2",
