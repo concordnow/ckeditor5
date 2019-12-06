@@ -50,15 +50,9 @@
     "@ckeditor/ckeditor5-widget": "ckeditor/ckeditor5-widget",
     "@ckeditor/ckeditor5-watchdog": "ckeditor/ckeditor5-watchdog",
     "@ckeditor/ckeditor5-word-count": "ckeditor/ckeditor5-word-count",
-    "ckeditor5-build-decoupled-document": "git@github.com:concordnow/ckeditor5-build-decoupled-document.git",
-    "ckeditor5-fontsize-converter": "git@github.com:concordnow/ckeditor5-fontsize-converter.git",
-    "ckeditor5-image-rendering": "git@github.com:concordnow/ckeditor5-image-rendering.git",
-    "ckeditor5-import-file": "git@github.com:concordnow/ckeditor5-import-file.git",
-    "ckeditor5-tabulation-converter": "git@github.com:concordnow/ckeditor5-tabulation-converter.git",
+    "ckeditor5-build-decoupled-document": "git@github.com:concordnow/ckeditor5-build-decoupled-document.git#test-attrs",
+    "ckeditor5-fontsize-converter": "git@github.com:concordnow/ckeditor5-fontsize-converter.git#test-attrs",
     "ckeditor5-theme-concord": "git@github.com:concordnow/ckeditor5-theme-concord.git",
-    "ckeditor5-textindent": "git@github.com:concordnow/ckeditor5-textindent.git",
-    "ckeditor5-lineheight": "git@github.com:concordnow/ckeditor5-lineheight.git",
-    "ckeditor5-table-render": "git@github.com:concordnow/ckeditor5-table-render.git",
-    "ckeditor5-testing": "git@github.com:concordnow/ckeditor5-testing.git"
+    "ckeditor5-testing": "git@github.com:concordnow/ckeditor5-testing.git#test-attrs"
   }
 }
