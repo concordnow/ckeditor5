@@ -51,14 +51,15 @@
     "@ckeditor/ckeditor5-watchdog": "ckeditor/ckeditor5-watchdog",
     "@ckeditor/ckeditor5-word-count": "ckeditor/ckeditor5-word-count",
     "ckeditor5-build-decoupled-document": "git@github.com:concordnow/ckeditor5-build-decoupled-document.git",
-    "ckeditor5-fontsize-converter": "git@github.com:concordnow/ckeditor5-fontsize-converter.git",
-    "ckeditor5-image-rendering": "git@github.com:concordnow/ckeditor5-image-rendering.git",
-    "ckeditor5-import-file": "git@github.com:concordnow/ckeditor5-import-file.git",
-    "ckeditor5-tabulation-converter": "git@github.com:concordnow/ckeditor5-tabulation-converter.git",
-    "ckeditor5-theme-concord": "git@github.com:concordnow/ckeditor5-theme-concord.git",
-    "ckeditor5-textindent": "git@github.com:concordnow/ckeditor5-textindent.git",
-    "ckeditor5-lineheight": "git@github.com:concordnow/ckeditor5-lineheight.git",
-    "ckeditor5-table-render": "git@github.com:concordnow/ckeditor5-table-render.git",
-    "ckeditor5-testing": "git@github.com:concordnow/ckeditor5-testing.git"
+    "ckeditor5-fontsize-converter": "git@github.com:concordnow/ckeditor5-fontsize-converter.git#CPM-8583-Update-ckeditor-18",
+    "ckeditor5-image-rendering": "git@github.com:concordnow/ckeditor5-image-rendering.git#CPM-8577-Update-ckeditor-18",
+    "ckeditor5-import-file": "git@github.com:concordnow/ckeditor5-import-file.git#CPM-8582-Update-ckeditor-18",
+    "ckeditor5-tabulation-converter": "git@github.com:concordnow/ckeditor5-tabulation-converter.git#CPM-8585-Update-ckeditor-18",
+    "ckeditor5-theme-concord": "git@github.com:concordnow/ckeditor5-theme-concord.git#CPM-8584-Update-ckeditor-18",
+    "ckeditor5-textindent": "git@github.com:concordnow/ckeditor5-textindent.git#CPM-8576-Update-ckeditor-18",
+    "ckeditor5-lineheight": "git@github.com:concordnow/ckeditor5-lineheight.git#CPM-8581-Update-ckeditor-18",
+    "ckeditor5-table-render": "git@github.com:concordnow/ckeditor5-table-render.git#CPM-8580-Update-ckeditor-18",
+    "ckeditor5-testing": "git@github.com:concordnow/ckeditor5-testing.git",
+    "ckeditor5-concordfieldcore": "git@github.com:concordnow/ckeditor5-concordfieldcore.git#CPM-8579-Update-ckeditor-18"
   }
 }
