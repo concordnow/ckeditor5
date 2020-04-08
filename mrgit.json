@@ -56,6 +56,7 @@
     "@ckeditor/ckeditor5-watchdog": "ckeditor/ckeditor5-watchdog",
     "@ckeditor/ckeditor5-word-count": "ckeditor/ckeditor5-word-count",
     "ckeditor5-fontsize-converter": "git@github.com:concordnow/ckeditor5-fontsize-converter.git#CPM-8583-Update-ckeditor-18",
-    "ckeditor5-image-rendering": "git@github.com:concordnow/ckeditor5-image-rendering.git#CPM-8577-Update-ckeditor-18"
+    "ckeditor5-image-rendering": "git@github.com:concordnow/ckeditor5-image-rendering.git#CPM-8577-Update-ckeditor-18",
+    "ckeditor5-import-file": "git@github.com:concordnow/ckeditor5-import-file.git#CPM-8582-Update-ckeditor-18"
   }
 }
