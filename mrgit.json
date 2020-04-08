@@ -63,6 +63,7 @@
     "ckeditor5-lineheight": "git@github.com:concordnow/ckeditor5-lineheight.git#CPM-8581-Update-ckeditor-18",
     "ckeditor5-table-render": "git@github.com:concordnow/ckeditor5-table-render.git#CPM-8580-Update-ckeditor-18",
     "ckeditor5-concordfieldcore": "git@github.com:concordnow/ckeditor5-concordfieldcore.git#CPM-8579-Update-ckeditor-18",
-    "ckeditor5-theme-concord": "git@github.com:concordnow/ckeditor5-theme-concord.git#CPM-8584-Update-ckeditor-18"
+    "ckeditor5-theme-concord": "git@github.com:concordnow/ckeditor5-theme-concord.git#CPM-8584-Update-ckeditor-18",
+    "ckeditor5-build-decoupled-document": "git@github.com:concordnow/ckeditor5-build-decoupled-document.git#CPM-8575-Update-ckeditor-18"
   }
 }
