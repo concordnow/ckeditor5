@@ -4262,11 +4262,6 @@ eslint-config-ckeditor5@^2.0.0:
     eslint-plugin-ckeditor5-rules "^0.0.5"
     eslint-plugin-mocha "^6.3.0"
 
-eslint-plugin-ckeditor5-rules@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ckeditor5-rules/-/eslint-plugin-ckeditor5-rules-0.0.2.tgz#f6325c6d046b41f05423c3a18bb9794b37c80baf"
-  integrity sha512-bV8w34pQcn1IyfdW1IEgfKuc1/hkTYpLo1DglRp1v4a2ph03PkMjN7vZ6FDrmu5ImVDJsd9022j5waA//MeyKg==
-
 eslint-plugin-ckeditor5-rules@^0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/eslint-plugin-ckeditor5-rules/-/eslint-plugin-ckeditor5-rules-0.0.5.tgz#cf5fe4a22a367d5f4611b3ec80b73499ee2e3a46"
