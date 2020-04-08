@@ -59,6 +59,7 @@
     "ckeditor5-image-rendering": "git@github.com:concordnow/ckeditor5-image-rendering.git#CPM-8577-Update-ckeditor-18",
     "ckeditor5-import-file": "git@github.com:concordnow/ckeditor5-import-file.git#CPM-8582-Update-ckeditor-18",
     "ckeditor5-tabulation-converter": "git@github.com:concordnow/ckeditor5-tabulation-converter.git#CPM-8585-Update-ckeditor-18",
-    "ckeditor5-textindent": "git@github.com:concordnow/ckeditor5-textindent.git#CPM-8576-Update-ckeditor-18"
+    "ckeditor5-textindent": "git@github.com:concordnow/ckeditor5-textindent.git#CPM-8576-Update-ckeditor-18",
+    "ckeditor5-lineheight": "git@github.com:concordnow/ckeditor5-lineheight.git#CPM-8581-Update-ckeditor-18"
   }
 }
