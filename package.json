@@ -31,7 +31,6 @@
     "@ckeditor/ckeditor5-build-balloon": "^20.0.0",
     "@ckeditor/ckeditor5-build-balloon-block": "^20.0.0",
     "@ckeditor/ckeditor5-build-classic": "^20.0.0",
-    "@ckeditor/ckeditor5-build-decoupled-document": "^20.0.0",
     "@ckeditor/ckeditor5-build-inline": "^20.0.0",
     "@ckeditor/ckeditor5-ckfinder": "^20.0.0",
     "@ckeditor/ckeditor5-clipboard": "^20.0.0",
@@ -73,7 +72,17 @@
     "@ckeditor/ckeditor5-utils": "^20.0.0",
     "@ckeditor/ckeditor5-watchdog": "^20.0.0",
     "@ckeditor/ckeditor5-widget": "^20.0.0",
-    "@ckeditor/ckeditor5-word-count": "^20.0.0"
+    "@ckeditor/ckeditor5-word-count": "^20.0.0",
+    "ckeditor5-build-decoupled-document": "git+ssh://git@github.com:concordnow/ckeditor5-build-decoupled-document.git",
+    "ckeditor5-fontsize-converter": "git+ssh://git@github.com:concordnow/ckeditor5-fontsize-converter.git",
+    "ckeditor5-image-rendering": "git+ssh://git@github.com:concordnow/ckeditor5-image-rendering.git",
+    "ckeditor5-import-file": "git+ssh://git@github.com:concordnow/ckeditor5-import-file.git",
+    "ckeditor5-tabulation-converter": "git+ssh://git@github.com:concordnow/ckeditor5-tabulation-converter.git",
+    "ckeditor5-theme-concord": "git+ssh://git@github.com:concordnow/ckeditor5-theme-concord.git",
+    "ckeditor5-textindent": "git+ssh://git@github.com:concordnow/ckeditor5-textindent.git",
+    "ckeditor5-lineheight": "git+ssh://git@github.com:concordnow/ckeditor5-lineheight.git",
+    "ckeditor5-table-render": "git+ssh://git@github.com:concordnow/ckeditor5-table-render.git",
+    "ckeditor5-testing": "git+ssh://git@github.com:concordnow/ckeditor5-testing.git"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-comments": "^20.0.0",
