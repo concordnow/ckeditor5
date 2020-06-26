@@ -1,0 +1,3 @@
+build/.automated-tests/
+node_modules/
+packages/

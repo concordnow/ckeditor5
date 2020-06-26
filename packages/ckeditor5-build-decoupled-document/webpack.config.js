@@ -1,5 +1,5 @@
 /**
- * @license Copyright (c) 2003-2020, CKSource - Frederico Knabben. All rights reserved.
+ * @license Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
@@ -11,7 +11,7 @@ const path = require( 'path' );
 const webpack = require( 'webpack' );
 const { bundler, styles } = require( '@ckeditor/ckeditor5-dev-utils' );
 const CKEditorWebpackPlugin = require( '@ckeditor/ckeditor5-dev-webpack-plugin' );
-const TerserPlugin = require( 'terser-webpack-plugin' );
+const UglifyJsWebpackPlugin = require( 'uglifyjs-webpack-plugin' );
 
 module.exports = {
 	devtool: 'source-map',
@@ -31,15 +31,14 @@ module.exports = {
 
 	optimization: {
 		minimizer: [
-			new TerserPlugin( {
+			new UglifyJsWebpackPlugin( {
 				sourceMap: true,
-				terserOptions: {
+				uglifyOptions: {
 					output: {
 						// Preserve CKEditor 5 license comments.
 						comments: /^!/
 					}
-				},
-				extractComments: false
+				}
 			} )
 		]
 	},
@@ -69,17 +68,14 @@ module.exports = {
 					{
 						loader: 'style-loader',
 						options: {
-							injectType: 'singletonStyleTag',
-							attributes: {
-								'data-cke': true
-							}
+							singleton: true
 						}
 					},
 					{
 						loader: 'postcss-loader',
 						options: styles.getPostCssConfig( {
 							themeImporter: {
-								themePath: require.resolve( '@ckeditor/ckeditor5-theme-lark' )
+								themePath: require.resolve( 'ckeditor5-theme-concord' )
 							},
 							minify: true
 						} )

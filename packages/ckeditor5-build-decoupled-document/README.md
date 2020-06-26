@@ -1,7 +1,23 @@
+CKEditor 5 for Concord developpers
+========================================
+In order to work with this build, please run
+
+```bash
+npm i -g mrgit && npm i -g yarn
+```
+
+Checkout [mrgit](https://github.com/cksource/mrgit) and [yarn](https://yarnpkg.com/lang/en/docs/) documentations
+
+You now must use _yarn_ to add packages, run scripts, etc.
+
+
 CKEditor 5 document editor build
 ========================================
 
+[![Join the chat at https://gitter.im/ckeditor/ckeditor5](https://badges.gitter.im/ckeditor/ckeditor5.svg)](https://gitter.im/ckeditor/ckeditor5?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-decoupled-document.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-build-decoupled-document)
+[![Build Status](https://travis-ci.org/ckeditor/ckeditor5-build-decoupled-document.svg?branch=master)](https://travis-ci.org/ckeditor/ckeditor5-build-decoupled-document)
+<br>
 [![Dependency Status](https://david-dm.org/ckeditor/ckeditor5-build-decoupled-document/status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-decoupled-document)
 [![devDependency Status](https://david-dm.org/ckeditor/ckeditor5-build-decoupled-document/dev-status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-decoupled-document?type=dev)
 
@@ -29,22 +45,21 @@ npm install --save @ckeditor/ckeditor5-build-decoupled-document
 And use it in your website:
 
 ```html
-<div id="toolbar-container"></div>
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
 <script src="./node_modules/@ckeditor/ckeditor5-build-decoupled-document/build/ckeditor.js"></script>
 <script>
 	DecoupledEditor
-		.create( document.querySelector( '#editor' ) )
+		.create( '<h2>Hello world!</h2>', {
+			toolbarContainer: document.querySelector( '.toolbar-container' ),
+			editableContainer: document.querySelector( '.editable-container' )
+		} )
 		.then( editor => {
-			// The toolbar needs to be explicitly appended.
-			document.querySelector( '#toolbar-container' ).appendChild( editor.ui.view.toolbar.element );
-
 			window.editor = editor;
 		} )
-		.catch( error => {
-			console.error( 'There was a problem initializing the editor.', error );
+		.catch( err => {
+			console.error( err.stack );
 		} );
 </script>
 ```
@@ -58,15 +73,15 @@ import DecoupledEditor from '@ckeditor/ckeditor5-build-decoupled-document';
 // const DecoupledEditor = require( '@ckeditor/ckeditor5-build-decoupled-document' );
 
 DecoupledEditor
-	.create( document.querySelector( '#editor' ) )
+	.create( '<h2>Hello world!</h2>', {
+		toolbarContainer: document.querySelector( '.toolbar-container' ),
+		editableContainer: document.querySelector( '.editable-container' )
+	} )
 	.then( editor => {
-		// The toolbar needs to be explicitly appended.
-		document.querySelector( '#toolbar-container' ).appendChild( editor.ui.view.toolbar.element );
-
 		window.editor = editor;
 	} )
-	.catch( error => {
-		console.error( 'There was a problem initializing the editor.', error );
+	.catch( err => {
+		console.error( err.stack );
 	} );
 ```
 
