@@ -53,7 +53,7 @@
     "@ckeditor/ckeditor5-image": "^16.0.0",
     "@ckeditor/ckeditor5-indent": "^16.0.0",
     "@ckeditor/ckeditor5-link": "^16.0.0",
-    "@ckeditor/ckeditor5-list": "^16.0.0",
+    "@ckeditor/ckeditor5-list": "^21.0.0",
     "@ckeditor/ckeditor5-markdown-gfm": "^16.0.0",
     "@ckeditor/ckeditor5-media-embed": "^16.0.0",
     "@ckeditor/ckeditor5-mention": "^16.0.0",
