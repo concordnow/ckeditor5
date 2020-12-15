@@ -43,7 +43,7 @@
     "@ckeditor/ckeditor5-editor-classic": "^16.0.0",
     "@ckeditor/ckeditor5-editor-decoupled": "^16.0.0",
     "@ckeditor/ckeditor5-editor-inline": "^16.0.0",
-    "@ckeditor/ckeditor5-engine": "^16.0.0",
+    "@ckeditor/ckeditor5-engine": "^24.0.0",
     "@ckeditor/ckeditor5-enter": "^16.0.0",
     "@ckeditor/ckeditor5-essentials": "^16.0.0",
     "@ckeditor/ckeditor5-font": "^16.0.0",
